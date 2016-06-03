@@ -24,6 +24,7 @@ import android.view.View;
 
 public class DayNightToggleButton extends View {
     private static final String TAG = DayNightToggleButton.class.getSimpleName();
+    private final float SCALE = (float) (Math.sqrt(2)/2);
     private OnCheckedChangeListener mOnCheckedChangeListener;
     private boolean mChecked ;
     private float mSunCenterX;
@@ -214,7 +215,7 @@ public class DayNightToggleButton extends View {
         canvas.drawPath(framePath,mPaint);
 
         pathSun.addCircle(mSunCenterX,mFrameRadius,mToggleRadius, Path.Direction.CW);
-        pathMoon.addCircle((float) (mSunCenterX-mCenterDistance* 0.71),(float)(mFrameRadius-mCenterDistance*0.71), mToggleRadius, Path.Direction.CW);
+        pathMoon.addCircle(mSunCenterX-mCenterDistance* SCALE,mFrameRadius-mCenterDistance*SCALE, mToggleRadius, Path.Direction.CW);
         pathSun.op(pathMoon, Path.Op.DIFFERENCE);
         mPaint.setColor(mToggleColor);
         mPaint.setStyle(Paint.Style.FILL);
