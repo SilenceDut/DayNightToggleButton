@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         ToggleSettings mBuilderSettings = new ToggleSettings.Builder()
                 .setToggleUnCheckedColor(getResources().getColor(R.color.colorAccent))
                 .setBackgroundUncheckedColor(getResources().getColor(R.color.blue500))
+                .setDuration(200)
                 .buildSettings();
         mButtonWithBuilder.setToggleSettings(mBuilderSettings);
 

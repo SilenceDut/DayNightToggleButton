@@ -62,9 +62,8 @@ public class DayNightToggleButton extends View {
         setClickable(true);
         mPaint = new Paint();
         mPaint.setAntiAlias(true);
-        mPaint.setColor(Color.BLUE);           // 画笔颜色 - 黑色
-        mPaint.setStyle(Paint.Style.FILL);    // 填充模式 - 描边
-        mPaint.setStrokeWidth(1);              // 边框宽度 - 10
+        mPaint.setColor(Color.BLUE);
+        mPaint.setStyle(Paint.Style.FILL);
         pathSun = new Path();
         pathMoon =new Path();
         framePath = new Path();
@@ -211,7 +210,6 @@ public class DayNightToggleButton extends View {
         framePath.moveTo(getWidth()-mFrameRadius,mFrameRadius*2);
         framePath.addRect(mFrameRadius,0,getWidth()-mFrameRadius,mFrameRadius*2, Path.Direction.CW);
         mPaint.setStyle(Paint.Style.FILL);
-        mPaint.setStrokeWidth(2);
         mPaint.setColor(mBackgroundColor);
         canvas.drawPath(framePath,mPaint);
 

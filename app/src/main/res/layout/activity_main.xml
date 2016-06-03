@@ -4,11 +4,11 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     >
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
         android:layout_weight="1"
         >
         <com.silencedut.daynighttogglebutton.DayNightToggleButton
@@ -19,13 +19,13 @@
             app:dnBackgroundUncheckedColor="@color/cyan500"
             app:dnToggleCheckedColor="@color/colorAccent"
             app:dnToggleUncheckedColor="@color/white"
-            app:dnDuration="500"
+            app:dnDuration="600"
             />
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
         android:layout_weight="1"
         >
         <com.silencedut.daynighttogglebutton.DayNightToggleButton
@@ -38,8 +38,8 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
         android:layout_weight="1"
         >
         <com.silencedut.daynighttogglebutton.DayNightToggleButton
