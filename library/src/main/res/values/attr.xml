@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DayNightToggleButton">
+        <attr name="dnTogglePadding" format="dimension|reference"/>
+        <attr name="dnToggleUncheckedColor" format="color|reference"/>
+        <attr name="dnToggleCheckedColor" format="color|reference"/>
+        <attr name="dnBackgroundUncheckedColor" format="color|reference"/>
+        <attr name="dnBackgroundCheckedColor" format="color|reference"/>
+        <attr name="dnToggleWithAnimate" format="boolean"/>
+        <attr name="dnDuration" format="integer"/>
+    </declare-styleable>
+</resources>

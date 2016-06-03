@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <com.silencedut.daynighttogglebutton.DayNightToggleButton
+            android:layout_centerInParent="true"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            app:dnBackgroundCheckedColor="@color/blue500"
+            app:dnBackgroundUncheckedColor="@color/cyan500"
+            app:dnToggleCheckedColor="@color/colorAccent"
+            app:dnToggleUncheckedColor="@color/white"
+            app:dnDuration="500"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <com.silencedut.daynighttogglebutton.DayNightToggleButton
+            android:layout_centerInParent="true"
+            android:id="@+id/day_night_with_builder"
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <com.silencedut.daynighttogglebutton.DayNightToggleButton
+            android:layout_centerInParent="true"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            app:dnBackgroundCheckedColor="#8D6E63"
+            app:dnTogglePadding="5dp"
+            app:dnToggleWithAnimate="false"
+            />
+    </RelativeLayout>
+</LinearLayout>

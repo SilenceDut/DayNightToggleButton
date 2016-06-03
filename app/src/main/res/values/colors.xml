@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFF59D</color>
+    <color name = "red500">#e51c23</color>
+    <color name = "red200">#ff5177</color>
+    <color name = "deepPurple">#673ab7</color>
+    <color name = "deepPurple200">#7c4dff</color>
+    <color name = "blue500">#5677fc</color>
+    <color name = "white">#F5F5F5</color>
+    <color name = "cyan500">#00bcd4</color>
+    <color name = "cyan200">#18ffff</color>
+</resources>
