@@ -1,6 +1,5 @@
-Welcome
-======
 # DayNightToggleButton
+
 A Funny ToggleButton for day and night change
 [![](https://jitpack.io/v/SilenceDut/DayNightToggleButton.svg)](https://jitpack.io/#SilenceDut/DayNightToggleButton)
 
@@ -50,10 +49,12 @@ Way 2: set appearance in Java
 
 ```java
 DayNightToggleButton mButtonWithBuilder = (DayNightToggleButton)findViewById(R.id.day_night_with_builder);
+
 ToggleSettings mBuilderSettings = new ToggleSettings.Builder()
         .setToggleUnCheckedColor(getResources().getColor(R.color.colorAccent))
         .setBackgroundUncheckedColor(getResources().getColor(R.color.blue500))
         .buildSettings();
+        
 mButtonWithBuilder.setToggleSettings(mBuilderSettings);
 ```
 
@@ -67,7 +68,7 @@ Support setting:
         <attr name="dnBackgroundCheckedColor" format="color|reference"/>
         <attr name="dnToggleWithAnimate" format="boolean"/>
         <attr name="dnDuration" format="integer"/>
-    </declare-styleable>
+</declare-styleable>
 
 ```
 
