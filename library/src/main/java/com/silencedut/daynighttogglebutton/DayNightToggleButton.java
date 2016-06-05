@@ -5,7 +5,6 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.ArgbEvaluator;
 import android.animation.FloatEvaluator;
 import android.animation.ValueAnimator;
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -13,7 +12,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.RectF;
-import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -197,7 +195,6 @@ public class DayNightToggleButton extends View {
         void onCheckedChanged(View buttonView, boolean isChecked);
     }
 
-    @TargetApi(Build.VERSION_CODES.KITKAT)
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
