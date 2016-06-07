@@ -4,7 +4,7 @@ A Funny ToggleButton for day and night change
 [![](https://jitpack.io/v/SilenceDut/DayNightToggleButton.svg)](https://jitpack.io/#SilenceDut/DayNightToggleButton)
 
 ![intro](media/day_night_toggle_button.gif)
-####[sample.apk](https://github.com/SilenceDut/DayNightToggleButton/blob/master/apk/day-night-toggle-sample-v1.0.1.apk?raw=true) 
+####[sample.apk](https://github.com/SilenceDut/DayNightToggleButton/blob/master/apk/day_night_togglebutton.apk?raw=true) 
 (It runs smoothly, but gif is not appear well)
 Adding to your project
 ----------------------
