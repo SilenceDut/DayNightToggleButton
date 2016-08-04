@@ -1,11 +1,13 @@
 # DayNightToggleButton
 
 A Funny ToggleButton for day and night change
+
 [![](https://jitpack.io/v/SilenceDut/DayNightToggleButton.svg)](https://jitpack.io/#SilenceDut/DayNightToggleButton)
 
 ![intro](media/day_night_toggle_button.gif)
 ####[sample.apk](https://github.com/SilenceDut/DayNightToggleButton/blob/master/apk/day_night_togglebutton.apk?raw=true) 
 (It runs smoothly, but gif is not appear well)
+
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-DayNightToggleButton-green.svg?style=true)](https://android-arsenal.com/details/1/4053)
 Adding to your project
 ----------------------
