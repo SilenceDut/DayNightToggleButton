@@ -154,7 +154,7 @@ public class DayNightToggleButton extends View {
                 mCenterDistance = floatEvaluator.evaluate(fraction,originY,endY);
                 mBackgroundColor = (int) argbEvaluator.evaluate(fraction,startBackgroundColor,endBackgroundColor);
                 mToggleColor = (int) argbEvaluator.evaluate(fraction,startToggleColor,endToggleColor);
-                    invalidate();
+                invalidate();
             }
         });
         mToggleAnimator.addListener(new AnimatorListenerAdapter() {
